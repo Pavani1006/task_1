@@ -1,0 +1,112 @@
+body{
+    /* background-color: rgb(247, 249, 250); */
+    background-color: rgb(228, 230, 230);
+    color: rgb(13, 10, 56);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    box-shadow: 0 1px 2px -1px black;
+    background-color: white;
+}
+img{
+    height: 45px;
+    width: 45px;
+    mix-blend-mode: multiply;
+}
+.logo{
+    display: flex;
+}
+.logo p{
+    font-size: larger;
+    font-weight: 400;
+}
+.navlink ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    list-style-type: none;
+    font-weight: 500;
+}
+.plans{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.navlink li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.cards{
+    width: 250px;
+    height: 370px;
+    border: 1.5px solid  rgb(15, 35, 68);
+    border-radius: 7px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+    font-weight: 500;
+}
+.cards:hover{
+    background-color: rgb(15, 35, 68);
+    color: white;
+    transform: scale(1.08);
+}
+.cards:hover button{
+    background-color: white;
+    color: rgb(15, 35, 68);
+    font-weight: 600;
+}
+.cards p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.text{
+    text-align: center;
+    padding: 15px;
+}
+span{
+    font-size: 23px;
+    font-weight: 600;
+}
+.cards ul{
+    padding-top: 7px;
+    padding-left: 55px;
+}
+.cards ul li{
+    padding: 3px;
+}
+button{
+    padding: 12px;
+    border-radius: 10px;
+    outline: none;
+    background:  rgb(15, 35, 68);
+    border: none;
+    color: white;
+}
+ @media only screen and (max-width: 755px) {
+    .navlink ul{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .logo p{
+        font-size: 15px;
+    }
+    .cards p{
+        font-size: 14px;
+    }
+}
+
+
+/* @media only screen and (max-width: 480px) {
+    .cards {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}  */
