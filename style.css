@@ -69,7 +69,7 @@ img{
 }
 .text{
     text-align: center;
-    padding: 15px;
+    padding: 11px;
 }
 span{
     font-size: 23px;
@@ -110,3 +110,27 @@ button{
         max-width: 100%;
     }
 }  */
+
+.cards {
+    width: 250px;
+    height: 370px;
+    border: 1.5px solid rgb(15, 35, 68);
+    border-radius: 7px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-weight: 500;
+}
+
+.cards:hover {
+    background-color: rgb(15, 35, 68);
+    color: white;
+    transform: scale(1.08);
+}
+
+body {
+    background: linear-gradient(to right, #07abf27a, #acb6e5); /* Light teal to soft purple */
+    color: rgb(13, 10, 56);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
